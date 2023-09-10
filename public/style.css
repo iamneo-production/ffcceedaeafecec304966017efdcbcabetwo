@@ -37,16 +37,29 @@ p{
     width: 75px;
     height: 75px;
     display: flex;
+    background-color: whitesmoke;
+    color: black;
+    text-shadow: gray;
     align-items: center;
     justify-content: center;
-    font-size: 24px;
-    font-weight: ;
+    font-size: 50px;
+    font-weight: 500;
     text-align: center;
-    cursor: pointer;
+    cursor: default;
 }
 
 .btn:active{
     outline: none;
+}
+
+.btn:hover{
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:disabled{
+  color: black;
+  cursor: no-drop;
 }
 
 #b1{
@@ -109,6 +122,11 @@ p{
     color: dodgerblue;
     font-size: 20px;
     cursor: pointer;
+}
+
+#result{
+  color: white;
+  
 }
 
 #main{
