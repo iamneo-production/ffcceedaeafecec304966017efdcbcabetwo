@@ -64,13 +64,16 @@ p{
 
 .result-container{
   background-color: white;
-  text-shadow: gray;
-  font-size: 25px;
+  height: auto;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
 }
 
 #result{
   color: black;
-  
+  text-shadow: gray;
+  font-size: 25px;
 }
 
 #b1{
